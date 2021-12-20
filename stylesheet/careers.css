@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+.nopadding{
+    padding: 0;
+}
+.objective{
+    /* padding: 0 16rem; */
+    position: relative;
+    max-width: 125ch;
+}
+.objective h1{
+    font-size: 2.441rem;
+    line-height: 1.25;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.objective h4{
+    font-size: 2.141rem;
+    line-height: 1.25;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; 
+}
+.objective p{
+    max-width: 110ch;
+}
+#careers {
+    padding: 2em 7em;
+}
+ .benefits p{
+    font-family: 'Open Sans', sans-serif;
+    color: #5d7079;
+    max-width: 80ch;
+}
+.benefits h5{
+    font-size: 2.1rem;
+    line-height: 1.25;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #5d7079;
+}
+.sideright img{
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%); */
+    height: 100%;
+}
+ul li{
+    line-height: 36px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #5d7079;
+}
+
+@media (max-width: 1199.98px) { 
+    
+ }
+
+@media(max-width:768.98px){
+   
+}
+
+@media(max-width:575.98px){
+    .objective {
+        padding: 0 0.5rem;
+        position: relative;
+    }
+    #careers {
+        padding: 2em 1em;
+    }
+    .objective h1{
+        font-size: 2.1  41rem;
+       
+    }
+    .benefits h5 {
+        font-size: 1.8rem;
+       
+    }
+}

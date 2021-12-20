@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+
+@font-face {
+    src: url(/fonts/greatescape-rg.otf);
+    font-family: greatescape;
+}
+@font-face {
+    src: url(/fonts/Argumentum-Regular.ttf);
+    font-family: argumentum;
+}
+p{
+    margin: 0;
+}
+#contact-us{
+    padding: 7rem 7rem 0 7rem;
+}
+h5{
+    font-family: 'Open Sans', sans-serif;
+    color: #5d7079;
+    font-size: 1.953rem;
+}
+#contact-us p,.form-group label{
+    font-family: 'Open Sans', sans-serif;
+    color: #374044;
+    font-size: 18px;
+}
+.headertext{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+  
+    margin-bottom: 0;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid black;
+    border-radius: .0px;
+    height: 3.5em;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#phone:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #56944F;
+    outline: 0;
+    box-shadow: 0 0 0 0 #56944F;
+}
+#firstname:focus,#lastname:focus,#email:focus ,#comment:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: red;
+    outline: 0;
+    box-shadow: 0 0 0 0 red;
+}
+#comment{
+    height: 7em;
+}
+.btn-send{
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 150ms;
+    padding: 0.75rem 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    color: white;
+    background-color: #0B6D77;
+    box-shadow: 0 0 0 2px currentColor;
+
+}
+#map{
+    height: 10rem;
+    width: 10rem;
+}
+#map iframe{
+    width: 500px;
+    height: 300px;
+    border: 2px solid #353232;
+}
+@media (max-width: 1199.98px) { 
+    #map iframe{
+        width: 350px;
+        height: 200px;
+        border: 2px solid #353232;
+    }
+ }
+
+@media(max-width:768.98px){
+    #map iframe{
+        margin-top: 2em;
+        width: 550px;
+        height: 300px;
+    }
+    #contact-req{
+        margin-top: 12rem;
+        }
+}
+
+@media(max-width:575.98px){
+   #contact-us{
+       padding: 0 2em;
+   }
+   #contact-req{
+    margin-top: 4rem;
+    }
+    #map iframe{
+        align-items: center;
+        text-align: center;
+        margin-top: 2em;
+        max-width: 250px;
+        height: 150px;
+    }
+}

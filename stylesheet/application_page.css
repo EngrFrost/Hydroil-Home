@@ -1,0 +1,43 @@
+.application-page{
+    padding: 0 7rem;
+}
+.btn-primary{
+    width: 200px;
+}
+input{
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4.1px;
+}
+.form-control{
+    border: 1px solid black;
+}
+.input-group>.input-group-append>.btn, .input-group>.input-group-append>.input-group-text, .input-group>.input-group-prepend:first-child>.btn:not(:first-child), .input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child), .input-group>.input-group-prepend:not(:first-child)>.btn, .input-group>.input-group-prepend:not(:first-child)>.input-group-text {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid black;
+}
+h4{
+    font-size: 2.1rem;
+    line-height: 1.25;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #5d7079;
+}
+.btn-secondary{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-bottom: 1em;
+    transform: translateX(-50%);
+    width: 300px;
+    background-color: #8099a5!important;
+}
+@media(max-width: 578.98px){
+    .application-page{
+        padding: 0 2.5rem;
+    }
+    .btn-secondary{
+        width: 200px;
+    }
+}

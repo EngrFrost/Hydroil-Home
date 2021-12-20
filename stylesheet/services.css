@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+.nopadding{
+    padding: 0;
+}
+.services{
+    padding: 0 7rem;
+}
+h4{
+    font-size: 2.1rem;
+    line-height: 1.25;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #5d7079;
+}
+.description {
+    transform: translateY(16%);
+    line-height: 29px;
+    padding: 0 1em!important;
+}
+.services .service-img{
+ height: 100%;
+}
+@media (max-width: 1199.98px) { 
+
+}
+
+@media(max-width:575.98px){
+    .services{
+        padding: 0 1rem;
+    }
+} 
